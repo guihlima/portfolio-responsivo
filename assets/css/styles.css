@@ -6,7 +6,7 @@
 :root {
     --header-height: 3rem;
     /* CORES */
-    --hue-color: 220;
+    --hue-color:230;
     /*Green 142, Purple 250, blue 230*/
     /* HSL COLOR MODE */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -635,6 +635,7 @@ img {
 .services__container {
     gap: 1.5rem;
     grid-template-columns: repeat(2, 1fr);
+    
 }
 
 .services__content {
@@ -644,6 +645,7 @@ img {
     border-radius: .25rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
     transition: .3s;
+    
 }
 
 .services__content:hover {
