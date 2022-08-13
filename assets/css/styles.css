@@ -864,6 +864,7 @@ img {
 }
 
 .footer__container {
+    align-items: center;
     row-gap: 3.5rem;
 }
 
