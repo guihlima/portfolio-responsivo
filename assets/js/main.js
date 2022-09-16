@@ -100,7 +100,7 @@ let swiper = new Swiper(".portfolio__container", {
     cssMode: true,
     loop: true,
     autoplay:{
-        delay: 4000,
+        delay: 6000,
     },
     navigation: {
         nextEl: ".swiper-button-next",
